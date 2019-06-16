@@ -1,4 +1,4 @@
-def swapPairs(self, head)
+def swapPairs(self, head):
     pre, pre.next = self, head
     while pre.next and pre.next.next:
         a = pre.next
